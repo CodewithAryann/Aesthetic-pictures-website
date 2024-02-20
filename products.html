@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Gallery</title>
+    <link rel="shortcut icon" href="Aesthetic img/logo_nobg.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="home">
+            <div id="nav">
+                <div id="navleft">
+                    <a class="nlink" id="navb" href="index.html">Home</a>
+                    <a class="nlink" id="navb" href="pricing.html">Pricing</a>
+                    <a class="nlink" id="navb" href="products.html">Products</a>
+                </div>
+                <img class="nlink" id="centertag" src="Aesthetic img/logo_nobg.png" alt="logo">
+
+                <a class="nlink" id="centertag" href="index.html">Aesthetic Gallery </a>
+                <div id="nright">
+                    <a class="nlink" id="navb" href="whychooseus.html">Why Choose Us</a>
+                </div>
+            </div>
+
+    <div class="container" id="product-container">
+        <!-- Product listings will be dynamically added here -->
+    </div>
+
+    <!-- Shopping Cart Container -->
+    <div class="cart-container">
+        <button class="close-cart" onclick="closeCart()">Close Cart</button>
+        <ul id="cart-list"></ul>
+        <div id="cart-total"></div>
+        <button class="checkout-button" onclick="checkout()">Checkout</button>
+    </div>
+    <div class="footer-clean">
+        <footer>
+            <div id="footer" class="footer-container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Art Advisory</a></li>
+                            <li><a href="#">Custom Framing</a></li>
+                            <li><a href="#">Art Events and Workshops</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Contact Information</h3>
+                        <ul>
+                            <li><a href="#">email@example.com</a></li>
+                            <li><a href="#">000-000-0000</a></li>
+                            <li><a href="#">123 Gallery Street</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Customer Support</h3>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Shipping Information</a></li>
+                        </ul>
+                    </div>
+                    <div id="terms" class="col-sm-4 col-md-3 item">
+                        <h3>Terms and Policies</h3>
+                        <ul>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a
+                            href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
+                                class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Aesthetic Gallery © 2024.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"
+    integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/products.js"></script>
+</body>
+
+</html>

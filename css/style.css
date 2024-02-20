@@ -1,0 +1,386 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Merriweather:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* font-family: 'Macondo', cursive; */
+font-family: 'Merriweather', serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+div#nav{
+    padding: 28px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+#nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 1.3vw 10vw;
+}
+#navleft{
+    display: flex;
+    gap: 34px;
+}
+
+#navb:hover{
+    text-shadow: 1px 1px 4px rgb(255 0 0);
+    border-bottom: ridge;
+    color: #000000a8;
+    transform-origin: center;
+    border-color: #ff0b00;
+}
+img#centertag.nlink{
+    display: flex;
+    left: 59vw;
+    width: 6vw;
+    left: 59vw;
+}
+#nav #centertag{
+    font-size: 4vh;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Macondo', cursive; 
+}
+#nav a{
+    display: inline-block;
+    font-weight: 550;
+    color: black;
+    text-decoration: none;
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 16vw;
+    padding: 0vw 10vw;
+}
+#sunflower h4{
+    margin-bottom: -5px;
+}
+#sunflower{
+    width: 10vw;
+    margin-top: -2vw;
+}
+
+#sunflower p1{
+    font-size: larger;
+    font-weight: 700;
+}
+#sunflower p{
+    padding: 2px;
+    font-size: 12px;
+    opacity: .9;
+    text-transform: capitalize;
+    font-weight: 550;
+    font-family: 'Macondo', cursive;
+}
+#sunflower #sunflowerimg{
+   width: 100%;
+    height: 17vw;
+}
+#sunflower img{
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+}
+#pinkflower{
+    position: relative;
+    justify-content: space-between;
+    width: 20vw;
+    height: 32vw;
+    left: 10vw;
+}
+#pinkflower #heading{
+    position: absolute;
+    top: -5%;
+    left: -5%;
+}
+#pinkflower p2{
+    letter-spacing: -0.1vw;
+    font-size: x-large;
+    font-weight: 600;
+    text-shadow: 0 0 #ffffff;
+    font-family: 'Macondo', cursive;
+}
+#pinkflower img{
+    width: 100%;
+    height: 100%;
+}
+#pinkflower p{
+    position: absolute;
+    font-size: 1vw;
+    top:100%;
+    margin-top: -1.5vw;
+    text-transform: capitalize;
+    font-size: 12px;
+    opacity: 0.9;
+}
+#nature {
+    display: flex;
+    /* position: absolute;  */
+    position: relative;
+    top: -15vw;
+    bottom: 18vw;
+    right: -19vw ;
+    width: 18vw;
+    height: 26vw;
+  }
+  #nature img{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+  }
+  #natureheading{
+    display: flex;
+    position: absolute;
+    top: -17px;
+  }
+    #natureheading p{
+        font-size: larger;
+    font-weight: 700;
+    margin: -2px;
+    }
+    #nature p2{
+        font-family: 'Macondo', cursive;
+    }
+
+.nature{
+    position: absolute;
+    top: 26vw;
+    padding-top: 6px;
+    opacity: 0.9;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+
+#vist{
+    display: flex;
+    gap:10px;
+    margin-bottom: -10vw;
+    align-items: center;
+    font-family: 'Macondo', cursive; 
+
+}
+#circlea{
+    border-radius: 50%;
+    border:1px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+}
+#circlea:hover{
+    
+        box-shadow: rgb(234 18 18 / 77%) 0 0 11px
+      
+}
+#circlea img{
+    width: 29px;
+}
+
+#vist.anim{
+    text-decoration: none;
+    color: black;
+}
+#vist.anim:hover{
+    text-shadow: rgb(239 9 9) 1px 1px 4px;
+}
+#vistlink{
+    color: black;
+    text-decoration: none;
+}
+#ourdream{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    margin-top: 11vw;
+}
+#ourdream h3{
+    letter-spacing: 0.3px;
+    opacity: 0.9;
+}
+#ourdream p{
+    position: relative;
+    right: 0;
+    top: 52px;
+    width: 80%;
+    line-height: 1.5;
+    text-align: right;
+    font-size: 23px;
+    opacity: 0.9;
+    font-weight: 600;
+    font-family: 'Macondo', cursive;
+}
+#ourdream span{
+    display: inline-block;
+    border-radius: 100px;
+    margin: -7px 5px;
+    margin-top: 1.5px;
+}
+#span1{
+
+    width: 9%;
+    height: 21%;
+    background-image: url(/Aesthetic\ img/sunset.jpg);
+    background-size: cover;
+    background-position: 4% 56%;;
+}
+
+#span2{
+    width: 9%;
+    height: 21%;
+    background-image: url(/Aesthetic\ img/img.jpg);
+    background-size: cover;
+    background-position: 0% 68%;;
+}
+#span3{
+    width: 9%;
+    height: 21%;
+    background-image: url(/Aesthetic\ img/image.jpg);
+    background-size: cover;
+    background-position: 9% 42%;
+}
+
+#ocean{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    margin-top: 15vw;
+}
+#oceanimg{
+    width: 17vw;
+}
+#oceanimg #pic1{
+    width: 100%;
+    height: 29vw;
+    margin-bottom: 1vw;
+}
+#pic1 img, #pic2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#oceanimg p,#nightimg p{
+    padding-top: 4px;
+    text-transform: capitalize;
+    font-size: 12px;
+    opacity: 0.9;
+    font-family: 'Macondo', cursive;
+}
+#oceanimg h1 , #nightimg h1{
+    font-weight: 700;
+    font-size: larger;
+}
+#nightimg p{
+    text-align: right;
+}
+#nightimg h1{
+    text-align: right;
+}
+
+#nightimg #pic1{
+    width: 100%;
+    height: 34vw;
+    margin-bottom: 1vw;
+}
+#nightimg{
+    width: 18vw;
+    padding-top: 3vw;
+}
+#snow{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vh;
+}
+#snowimg{
+    width: 65%;
+    height: 35vw;
+    padding-left: 2vw;
+}
+#snowimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#snowtext{
+    width: 35%;
+    padding: 0 3vw;
+}
+#snowtext h1{
+    font-weight: 700;
+    font-size: larger;
+}
+#snowtext p{
+    padding-top: 4px;
+    text-transform: capitalize;
+    font-size: 12px;
+    opacity: 0.9;
+    font-family: 'Macondo', cursive;
+}
+#aesthetic{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    margin-top: 4vw;
+    width: 100%;
+    height: 100vh;
+}
+#aesthetic video{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+
+}
+#atext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+#atext h1{
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 1vw;
+    background-color: #e41818bd;
+    border-radius: 10px;
+    padding: 17px;
+}
+#atext button{
+        padding: .8vw 1.3vw;
+        background-color: #e41818bd;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+button#button:hover{
+        background-color:#f51309;
+    }
